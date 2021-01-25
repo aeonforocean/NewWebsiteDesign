@@ -1,0 +1,161 @@
+/* generals */
+p, li {
+  color: #4f4f4f;
+}
+
+#header-row {
+  position: relative;
+  transition: background-color 0.5s linear;
+}
+
+#contact, #request, #volunteer{
+  background-color: #000;
+  background-color: #868e96;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+.no-webp #contact {
+  background-image: url('../img/contact.jpg');;
+}
+.webp #contact {
+  background-image: url('../img/contact.webp');
+}
+.no-webp #request {
+  background-image: url('../img/speaker_desk.jpg');;
+}
+.webp #request{
+  background-image: url('../img/speaker_desk.webp');
+}
+.no-webp #volunteer {
+  background-image: url('../img/volunteer.jpg');;
+}
+.webp #volunteer {
+  background-image: url('../img/volunteer.webp');
+}
+#contact:hover .overlay, #request:hover .overlay, #volunteer:hover .overlay {
+  background-color: #343a401a;
+}
+#contact:hover .site-heading > h2, #request:hover .site-heading > h2, #volunteer:hover .site-heading > h2 {
+  color: #3271f5;
+}
+
+#contact .site-heading > h2, #request .site-heading > h2, #volunteer .site-heading > h2{
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  padding: 7rem 5rem;
+  transition: color 0.5s linear;
+}
+.overlay {
+  background-color: #343a4099;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.5s linear;
+}
+#section1 h2 {
+  font-size: 2rem;
+}
+
+.form-wrapper {
+  position: relative;
+  margin-top: 5rem;
+}
+
+#messages-wrapper {
+  position: absolute;
+  top: 20rem;
+}
+
+#undoBtn {
+  font-size: 3rem;
+  position: absolute;
+  z-index: 100;
+  left: 15rem;
+  top: -2rem;
+  border: 2px solid;
+  padding: 1rem;
+  border-radius: 5rem;
+  transform: rotateZ(45deg);
+  transition: transform linear 0.2s;
+  cursor: pointer;
+}
+#undoBtn:hover {
+  transform: rotateZ(0deg);
+  transition: transform linear 0.2s;
+}
+
+/* BREAKPOINTS */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #contact .site-heading > h2, #request .site-heading > h2, #volunteer .site-heading > h2 {
+    padding: 15rem 5rem;
+  }
+
+  #messages-wrapper {
+    position: absolute;
+    top: 8rem;
+    left: 1.5rem;
+  }
+  #undoBtn {
+    left: -15rem;
+    top: 5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact-us .site-heading > h2{
+    font-size: 3rem;
+  }
+  #section1 h2 {
+    font-size: 3.5rem;
+  }
+
+  #contact .site-heading > h2, #request .site-heading > h2, #volunteer .site-heading > h2 {
+    padding: 25rem 5rem;
+  }
+  
+  #messages-wrapper {
+    position: absolute;
+    top: 15rem;
+  }
+  #undoBtn {
+    left: -20rem;
+    top: 5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #contact .site-heading > h2, #request .site-heading > h2, #volunteer .site-heading > h2 {
+    padding: 28rem 5rem;
+  }
+  #undoBtn {
+    left: -8rem;
+    top: 2rem;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1900px) {
+  #contact .site-heading > h2, #request .site-heading > h2, #volunteer .site-heading > h2 {
+    padding: 28rem 5rem;
+  }
+
+  #messages-wrapper {
+    position: absolute;
+    left: 25rem;
+  }
+  #undoBtn {
+    left: -8rem;
+    top: 2rem;
+  }
+}

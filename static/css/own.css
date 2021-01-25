@@ -1,0 +1,89 @@
+.sticky-wrapper{
+    height: 0 !important;
+}
+.navbar-toggler:focus{
+    outline: 0px;
+    outline-color: transparent;
+  }
+.navbar-toggler{
+    outline: 0px;
+    outline-color: transparent;
+}
+
+.dropdown-links li{
+    list-style: none;
+}
+
+.category{
+    transform: rotateZ(10deg);
+    overflow: hidden;
+    transition: ease;
+    transition-duration: 0.5s;
+    z-index: auto;
+}
+.category:hover{
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    opacity: 1;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    z-index: 2000;
+}
+.category .card-img-overlay a{
+    visibility: hidden; 
+}
+.category:hover .card-img-overlay a{
+    transition: linear;
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+    visibility: visible;
+}
+.card .fa-arrow-alt-circle-right{
+    font-size: 3rem;
+    color: rgba(1, 22, 78, 0.88)
+}
+
+.side-menu-wrapper{
+    position: absolute;
+    right: -15rem;
+    width: 15rem;
+    z-index: 2000;
+    background-color: transparent;
+}
+.side-menu-wrapper a{
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.side-menu-wrapper i{
+    color: #000;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+
+/* BREAKPOINTS */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
