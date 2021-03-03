@@ -1,0 +1,105 @@
+/* generals */
+p {
+  color: #4f4f4f;
+}
+
+li {
+  list-style: none;
+}
+#cardFour li {
+  list-style-type: disc;
+  color: #4f4f4f;
+}
+
+/* background image options */
+.no-webp header.masthead {
+  background-image: url('../img/commonsenseplastic_header.jpg');
+}
+.webp header.masthead {
+  background-image: url('../img/commonsenseplastic_header.webp');
+}
+/* main header options */
+header.masthead{
+  background-color: #000;
+  margin: 0;
+}
+header.masthead .site-heading > h2{
+  font-weight: 400;
+  font-size: 2rem;
+}
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 150px 0 300px;
+}
+.overlay {
+  background-color: #343a402e;
+}
+#section1 h2 {
+  font-size: 2rem;
+}
+#section1 {
+  background-color: #2f2226;
+  
+}
+
+/* grow and shrink effect for the cards */
+#cardOne, #cardTwo, #cardThree {
+  transition: height ease 1s;
+}
+#cardOne.is-original, #cardTwo.is-original, #cardThree.is-original, #cardFour.is-original {
+  height: 25rem;
+}
+#cardOne.is-flipped, #cardTwo.is-flipped, #cardThree.is-flipped, #cardFour.is-flipped {
+  height: auto;
+}
+
+.front {
+  transform-style: unset !important;
+}
+.back{
+  background-color: #fff;
+  padding: 2rem;
+  transform-style: unset !important;
+}
+/* BREAKPOINTS */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 300px 0;
+  }
+
+  #cardOne.is-original, #cardTwo.is-original, #cardThree.is-original, #cardFour.is-original {
+    height: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #section1 h2 {
+    font-size: 3.5rem;
+  }
+
+  header.masthead .site-heading > h2{
+    font-size: 3rem;
+  }
+
+  #cardOne.is-original, #cardTwo.is-original, #cardThree.is-original, #cardFour.is-original {
+    height: 35rem;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #cardOne.is-original, #cardTwo.is-original, #cardThree.is-original, #cardFour.is-original {
+    height: auto;
+  }
+}

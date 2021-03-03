@@ -1,0 +1,101 @@
+/* generals */
+p, li, .table {
+    color: #4f4f4f;
+  }
+/* background image options */
+.no-webp header.masthead {
+  background-image: url('../img/about.jpg');
+}
+.webp header.masthead {
+  background-image: url('../img/about.webp');
+}
+header.masthead{
+  background-color: #000;
+  margin: 0;
+}
+header.masthead .site-heading > h2{
+  font-weight: 400;
+  font-size: 2rem;
+}
+.overlay {
+  background-color: #343a402e;
+}
+#section1 h2 {
+  font-size: 2rem;
+}
+#section2 h2 {
+  font-size: 1.8rem;
+}
+/* background image options */
+.no-webp #journey {
+  background-image: url('../img/journey_mobile.jpg');
+}
+.webp #journey {
+  background-image: url('../img/journey_mobile.webp');
+}
+#journey {
+  background-color: #000;
+  margin: 0;
+}
+.badge-pill {
+  margin: 0 15px;
+}
+.badge-pill > p {
+  margin: 15px 0;
+}
+.canvas-wrapper {
+  height: 25rem;
+}
+table > tbody th, table > tbody td {
+  padding: .25rem !important;
+}
+#table-3 {
+  font-size: 0.8rem;
+}
+
+/* BREAKPOINTS */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #section2 h2 {
+    font-size: 2.5rem;
+  }
+  #table-3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header.masthead .site-heading > h2{
+    font-size: 3rem;
+  }
+  #section1 h2 {
+    font-size: 3.5rem;
+  }
+  #section2 h2 {
+    font-size: 3.5rem;
+  }
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* background image options */
+  .no-webp #journey {
+    background-image: url('../img/journey_desk.jpg');
+  }
+  .webp #journey {
+    background-image: url('../img/journey_desk.webp');
+  }
+  .canvas-wrapper {
+    height: 35rem;
+  }
+  table > tbody th, table > tbody td {
+    padding: .55rem !important;
+  }
+}

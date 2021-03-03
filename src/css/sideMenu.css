@@ -1,0 +1,96 @@
+/* GENERALS */
+.side-links-menu-wrapper {
+  padding: 1rem;
+  width: 4rem !important;
+  margin: 1rem 0 1rem 0.3rem;
+  border-radius: 5rem;
+  display: grid;
+  opacity: 0;
+  pointer-events: none;
+  transition: all linear 0.2s;
+}
+.side-links-menu-wrapper .fa-stack {
+  position: relative;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+.side-links-menu-wrapper .fa-stack a {
+  opacity: 0;
+  font-size: 0;
+  transition: all linear 0s;
+}
+.side-links-menu-wrapper .fa-circle {
+  font-size: 2rem;
+}
+.side-links-menu-wrapper .fa-inverse {
+  font-size: 1.2rem;
+}
+.side-links-menu-wrapper.is-visible {
+  opacity: 1;
+  pointer-events: all;
+  transition: all linear 0.3s;
+}
+.side-links-menu-wrapper.is-hidden {
+  margin-left: -3.5rem;
+}
+
+/* HOVER */
+.side-links-menu-wrapper .fa-stack:hover .fa-circle {
+  font-size: 3rem;
+  position: absolute;
+  left: 0;
+  right: 90%;
+  border-radius: 5rem;
+  color: #607D8B;
+  background-color: #607D8B;
+  transition: width ease-in 0.2s;
+}
+.side-links-menu-wrapper .fa-stack:hover a {
+  display: inline-flex;
+  width: max-content;
+  position: absolute;
+  font-size: 1.2rem;
+  left: 3.5rem;
+  right: 90%;
+  color: white;
+  opacity: 1;
+  transition: font-size linear 0.1s, opacity linear 0.3s 0.3s;
+}
+.side-links-menu-wrapper .fa-stack:hover .fa-inverse {
+  font-size: 2rem;
+  transition: all linear 0.1s;
+}
+
+#menuToggler {
+  position: absolute;
+  left: 2.5rem;
+  color: #00000045;
+}
+#menuToggler:hover .fa-circle {
+  font-size: 2rem;
+  color: #00000045;
+  background-color: transparent;
+}
+#menuToggler:hover .fa-inverse {
+  font-size: 1.2rem;
+}
+/* BREAKPOINTS */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
