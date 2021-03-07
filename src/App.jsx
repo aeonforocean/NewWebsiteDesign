@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import React from "react";
-import HeaderNav from "./components/HeaderNav/header-nav";
-import AboutUs from "./components/AboutUs/AboutUs";
-import ContactUs from "./components/ContactUs/ContactUs";
-import KidsCorner from "./components/KidsCorner/KidsCorner";
-import KnowYourOcean from "./components/KnowYourOcean/KnowYourOcean";
-import Publications from "./components/Publications/Publications";
-import TakeAction from "./components/TakeAction/TakeAction";
-import Home from "./components/Home";
+import HeaderNav from "./pages/HeaderNav/header-nav";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import ContactUs from "./pages/ContactUs/ContactUs";
+import KidsCorner from "./pages/KidsCorner/KidsCorner";
+import KnowYourOcean from "./pages/KnowYourOcean/KnowYourOcean";
+import Publications from "./pages/Publications/Publications";
+import TakeAction from "./pages/TakeAction/TakeAction";
+import Home from "./pages/Home";
 
 function App() {
   return (
