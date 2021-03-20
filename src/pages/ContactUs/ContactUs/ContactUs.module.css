@@ -1,0 +1,28 @@
+
+.cardComponent {
+  width:auto;
+  height:100%;
+}
+
+.cardTitle {
+  font-weight: bolder;
+  font-size: xx-large !important;
+  color:white;
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  filter: brightness(80%);
+}
+
+.overlay {
+    background-color: #343a4099;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.5s linear;
+  }

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 import HeaderNav from "./pages/HeaderNav/header-nav";
 import AboutUs from "./pages/AboutUs/AboutUs";
@@ -13,14 +13,19 @@ function App() {
   return (
     <Router>
         <HeaderNav></HeaderNav>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/know-your-ocean" component={KnowYourOcean} />
-        <Route exact path="/take-action" component={TakeAction} />
-        <Route exact path="/kids-corner" component={KidsCorner} />
-        <Route exact path="/publications" component={Publications} />
-        <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/contact-us" component={ContactUs} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/know-your-ocean" component={KnowYourOcean} />
+          <Route exact path="/take-action" component={TakeAction} />
+          <Route exact path="/kids-corner" component={KidsCorner} />
+          <Route exact path="/publications" component={Publications} />
+          <Route exact path="/about-us" component={AboutUs} />
+          <Route exact path="/contact-us" component={ContactUs} />
+        </Switch>
     </Router>
+    // <>
+    // <h1>p</h1>
+    // </>
   );
 }
 
