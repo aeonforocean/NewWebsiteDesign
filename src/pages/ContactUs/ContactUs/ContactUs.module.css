@@ -2,7 +2,6 @@
 .cardComponent {
   width:auto;
   height:100%;
-  transition: transform 1s; /* Animation */
 }
 
 .cardTitle {
@@ -15,12 +14,22 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s; /* Animation */
 }
 
 .cardImage {
   filter: brightness(80%);
 }
 
-.cardComponent :hover{
-  transform: scale(1.2);
+.cardImageSpeaker {
+  height: 100% im !important;
+  object-fit: cover;
 }
+.cardTitleWord{
+  transition: transform 0.5s; 
+}
+
+.cardTitle:hover .cardTitleWord{
+  transform: scale(1.5);
+}
+

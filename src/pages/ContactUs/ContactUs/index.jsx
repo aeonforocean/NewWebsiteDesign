@@ -6,7 +6,7 @@ import SpeakerPic from "../../../img/speaker_desk.jpg";
 import VolunteerPic from "../../../img/volunteer.jpg";
 import classes from "./ContactUs.module.css";
 
-function ContactUs() {
+function ContactUs(props) {
 
     return (
         <> 
@@ -17,19 +17,20 @@ function ContactUs() {
                     <Card border="light" className = {classes.cardComponent}>
                         <Card.Img src = {ContactPic} className = {classes.cardImage}></Card.Img>
                         <Card.ImgOverlay>
-                            <Card.Title className={classes.cardTitle}>Contact Us</Card.Title>
+                            <Card.Title className={classes.cardTitle}><p className={classes.cardTitleWord}>Contact Us</p></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
                 </Col>
                 {/* Request Speaker */}
                 <Col>
-                    <Card border="light" className = {classes.cardComponent}>
-                        <Card.Img src = {SpeakerPic} className = {classes.cardImage} style={{height: "100%", objectFit: "cover"}}></Card.Img>
-                        <Card.ImgOverlay>
-                            <Card.Title className={classes.cardTitle}>Request a Speaker</Card.Title>
-                        </Card.ImgOverlay>
-                       
-                    </Card>
+                <Card border="light" className = {classes.cardComponent} style =  {{height: "100%"}} onClick = {() => props.history.push("/contact-us/request-a-speaker")}>
+                    <Card.Img src = {SpeakerPic} style = {{height:"100%", objectFit: "cover"}} className = {classes.cardImage} ></Card.Img>
+                    <Card.ImgOverlay style = {{height:"100%"}}>
+                        <Card.Title className={classes.cardTitle}><p className={classes.cardTitleWord}>Request A Speaker</p></Card.Title>
+                    </Card.ImgOverlay>
+                    
+                </Card>
+                    
                 </Col>
                 {/* Volunteer */}
                 <Col>
@@ -37,7 +38,7 @@ function ContactUs() {
                         <Card border="light" className = {classes.cardComponent}>
                             <Card.Img src = {VolunteerPic} className = {classes.cardImage}></Card.Img>
                             <Card.ImgOverlay>
-                                <Card.Title  className={classes.cardTitle}>Volunteer With Us</Card.Title>
+                                <Card.Title className={classes.cardTitle}><p className={classes.cardTitleWord}>Request A Speaker</p></Card.Title>
                             </Card.ImgOverlay>
                         </Card>
                     </div>

@@ -3,6 +3,7 @@ import { Form, Col, Button } from 'react-bootstrap';
 import classes from './RequestASpeaker.module.css';
 import {states} from '../../../contants'
 
+//TODO: maybe send information in email to a founder email address
 function RequestASpeaker()  {
     return (
         <div className = {classes.pageContainer}>
@@ -58,10 +59,9 @@ function RequestASpeaker()  {
                         <Form.Check 
                         required 
                         type = "checkbox"
-                        feedbackTooltip
-                        label="By checking this box I am providng consent that I am over 18 years or older."
                         name = "ageOver18" />
                     </Form.Group>
+                    <Form.Label>By checking this box I am providng consent that I am over 18 years or older.</Form.Label>
                     </Form.Row>
                     
                     <Button type="submit" size = "lg">Submit Form</Button>
