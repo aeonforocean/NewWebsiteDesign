@@ -8,6 +8,7 @@ import KnowYourOcean from "./pages/KnowYourOcean/KnowYourOcean";
 import Publications from "./pages/Publications/Publications";
 import TakeAction from "./pages/TakeAction/TakeAction";
 import Home from "./pages/Home";
+import RequestASpeaker from "./pages/ContactUs/RequestASpeaker";
 
 function App() {
   return (
@@ -21,11 +22,9 @@ function App() {
           <Route exact path="/publications" component={Publications} />
           <Route exact path="/about-us" component={AboutUs} />
           <Route exact path="/contact-us" component={ContactUs} />
+          <Route exact path="/contact-us/request-a-speaker" component={RequestASpeaker} />
         </Switch>
     </Router>
-    // <>
-    // <h1>p</h1>
-    // </>
   );
 }
 

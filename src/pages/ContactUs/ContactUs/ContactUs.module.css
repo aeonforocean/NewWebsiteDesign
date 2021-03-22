@@ -2,6 +2,7 @@
 .cardComponent {
   width:auto;
   height:100%;
+  transition: transform 1s; /* Animation */
 }
 
 .cardTitle {
@@ -20,9 +21,6 @@
   filter: brightness(80%);
 }
 
-.overlay {
-    background-color: #343a4099;
-    width: 100%;
-    height: 100%;
-    transition: background-color 0.5s linear;
-  }
+.cardComponent :hover{
+  transform: scale(1.2);
+}

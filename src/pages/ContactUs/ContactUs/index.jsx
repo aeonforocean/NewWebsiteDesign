@@ -33,12 +33,16 @@ function ContactUs() {
                 </Col>
                 {/* Volunteer */}
                 <Col>
-                    <Card border="light" className = {classes.cardComponent}>
-                        <Card.Img src = {VolunteerPic} className = {classes.cardImage}></Card.Img>
-                        <Card.ImgOverlay>
-                            <Card.Title  className={classes.cardTitle}>Volunteer With Us</Card.Title>
-                        </Card.ImgOverlay>
-                    </Card>
+                    <div onClick = {() => window.open("https://www.volunteermatch.org/search/org1107201.jsp")}>
+                        <Card border="light" className = {classes.cardComponent}>
+                            <Card.Img src = {VolunteerPic} className = {classes.cardImage}></Card.Img>
+                            <Card.ImgOverlay>
+                                <Card.Title  className={classes.cardTitle}>Volunteer With Us</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+                    </div>
+                    
+                    
                 </Col>
             </Row>
          </Container>
