@@ -9,6 +9,7 @@ import Publications from "./pages/Publications/Publications";
 import TakeAction from "./pages/TakeAction/TakeAction";
 import Home from "./pages/Home";
 import RequestASpeaker from "./pages/ContactUs/RequestASpeaker";
+import Footer from "./pages/Footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/contact-us" component={ContactUs} />
           <Route exact path="/contact-us/request-a-speaker" component={RequestASpeaker} />
         </Switch>
+        <Footer/>
     </Router>
   );
 }
