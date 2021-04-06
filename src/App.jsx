@@ -9,7 +9,7 @@ import Publications from "./pages/Publications/Publications";
 import TakeAction from "./pages/TakeAction/TakeAction";
 import Home from "./pages/Home";
 import RequestASpeaker from "./pages/ContactUs/RequestASpeaker";
-import Footer from "./pages/Footer/Footer";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -17,13 +17,13 @@ function App() {
         <HeaderNav></HeaderNav>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/know-your-ocean" component={KnowYourOcean} />
+          {/* <Route exact path="/know-your-ocean" component={KnowYourOcean} />
           <Route exact path="/take-action" component={TakeAction} />
           <Route exact path="/kids-corner" component={KidsCorner} />
           <Route exact path="/publications" component={Publications} />
-          <Route exact path="/about-us" component={AboutUs} />
+          <Route exact path="/about-us" component={AboutUs} /> */}
           <Route exact path="/contact-us" component={ContactUs} />
-          <Route exact path="/contact-us/request-a-speaker" component={RequestASpeaker} />
+          <Route exact path="/request-speaker" component={RequestASpeaker} />
         </Switch>
         <Footer/>
     </Router>
