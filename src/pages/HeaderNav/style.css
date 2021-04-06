@@ -5,3 +5,12 @@
 body{
     font-size: 2rem;
 }
+
+.navbar {
+    min-height: 70px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    margin-bottom: 20px;
+}

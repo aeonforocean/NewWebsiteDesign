@@ -1,0 +1,26 @@
+/* @media only screen and (min-width: 992px)
+.webp .masthead {
+    background-image: url(../img/index_header.webp);
+} */
+
+.webp .masthead {
+    background-image: url(../../img/index_header.webp);
+}
+
+.masthead {
+    background-image: url(../../img/index_header.webp);
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.card-text {
+    font-size: 3rem;
+}
