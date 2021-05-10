@@ -9,7 +9,7 @@ function KnowYourOcean() {
         <>
         <HeaderImage text="We all depend on the ocean to thrive, now and in the future." />
 
-        <section className='container-fluid my-5' id='section1'>
+        <div className='container-fluid my-5' id='section1'>
             <div className='row' id=''>
                 <div className='container' id='worldocean_wrapper'>
                     <h2 className="display-4">What is the World Ocean, and why is it important?</h2>
@@ -34,7 +34,7 @@ function KnowYourOcean() {
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
         </>
     )
 }
