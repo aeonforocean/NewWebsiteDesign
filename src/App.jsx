@@ -17,10 +17,10 @@ function App() {
         <HeaderNav></HeaderNav>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route exact path="/know-your-ocean" component={KnowYourOcean} />
-          <Route exact path="/take-action" component={TakeAction} />
+          <Route exact path="/know-your-ocean" component={KnowYourOcean} />
+          {/* <Route exact path="/take-action" component={TakeAction} />
           <Route exact path="/kids-corner" component={KidsCorner} />
-          <Route exact path="/publications" component={Publications} />*/}
+          <Route exact path="/publications" component={Publications} /> */}
           <Route exact path="/about-us" component={AboutUs} /> 
           <Route exact path="/contact-us" component={ContactUs} />
           <Route exact path="/request-speaker" component={RequestASpeaker} />

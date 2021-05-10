@@ -1,23 +1,19 @@
 import React from "react";
 import "./style.css";
-import { Jumbotron, Container, Row, Col } from "react-bootstrap";
-import headImage from "../../img/index_header.webp";
+import { Container, Row, Col } from "react-bootstrap";
 import whyoceans from "../../img/whyoceans.webp";
 import k2w from "../../img/K2W.webp";
 import takeaction from "../../img/takeaction.webp";
 import commonsenseplastic from "../../img/commonsenseplastic.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
-
+import HeaderImage from "../../components/HeaderImage";
 
 function Home() {
     return (
         <>
-        <Jumbotron fluid style={{ backgroundImage: `url(${headImage})`, backgroundSize: 'cover', height: '500px' }}>
-            <Container>
-                <h2>Kids teaching kids to lead the way in protecting the world's oceans</h2>
-            </Container>
-        </Jumbotron>
+        <HeaderImage text="Kids teaching kids to lead the way in protecting the world's oceans" />
+
         <Container>
             <Row>
                 <Col>
