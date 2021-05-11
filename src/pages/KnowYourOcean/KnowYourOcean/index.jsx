@@ -12,7 +12,7 @@ function KnowYourOcean() {
         <div className='container-fluid my-5' id='section1'>
             <div className='row' id=''>
                 <div className='container' id='worldocean_wrapper'>
-                    <h2 className="display-4">What is the World Ocean, and why is it important?</h2>
+                    <h2 >What is the World Ocean, and why is it important?</h2>
                     <p>
                         Oceans are a true source of plenty. Our World Ocean provides us with the air we breathe and regulates
                         our climate and weather patterns. This interconnected water system is important for transportation,

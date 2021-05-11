@@ -8,7 +8,7 @@ function AboutUs(props) {
       <br></br>
       <Row>
         <Col>
-          <h2>Aeon's Story</h2>
+          <h2 className="display-4">Aeon's Story</h2>
           <p>
             Aeon for Ocean was founded by Aeon, a 7-year-old from Minnesota, to
             empower his peers to protect the ocean and this beautiful planet.
