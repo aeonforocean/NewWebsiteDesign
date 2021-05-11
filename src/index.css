@@ -31,13 +31,26 @@ h4 {
 
 footer {
   background-color: aliceblue;
+  padding-top: .5rem;
 }
 
 .footer-list{
   list-style-type: none;
+  text-align: center;
+  margin: auto;
+}
+
+.footer-icon{
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.footer-links{
+  margin: auto;
 }
 
 hr {
   width:90%;
-  margin:0 auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
