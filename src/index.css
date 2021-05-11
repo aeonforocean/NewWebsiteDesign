@@ -16,8 +16,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 h2 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: aliceblue;
+}
+
+.footer-list{
+  list-style-type: none;
+}
+
+hr {
+  width:90%;
+  margin:0 auto;
 }

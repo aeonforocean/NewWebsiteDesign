@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
-import HeaderNav from "./pages/HeaderNav/header-nav";
+import HeaderNav from "./components/HeaderNav/header-nav";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import KidsCorner from "./pages/KidsCorner/KidsCorner";
@@ -9,7 +9,7 @@ import Publications from "./pages/Publications/Publications";
 import TakeAction from "./pages/TakeAction/TakeAction";
 import Home from "./pages/Home";
 import RequestASpeaker from "./pages/ContactUs/RequestASpeaker";
-import Footer from "./pages/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
