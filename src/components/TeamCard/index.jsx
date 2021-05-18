@@ -5,7 +5,7 @@ function TeamCard(props) {
     return (
         <Row>
             <Col>
-                <Card>
+                <Card className="team-member-card">
                     <Card.Body>
                         <h2>{props.name}</h2>
                         <h3>{props.role}</h3>

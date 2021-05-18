@@ -11,12 +11,7 @@ function OurTeam(props) {
         <Container>
           <h1>Our Team</h1>
           <Row>
-            <TeamCard
-                name={team[0].name}
-                image={team[0].img}
-                role={team[0].role}
-                bio={team[0].bio}
-              />
+            {team.map(team_member => <TeamCard name={team_member.name} image={team_member.img} role={team_member.role} bio={team_member.bio}/>)}
           </Row>
         </Container>
     );

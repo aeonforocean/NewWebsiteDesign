@@ -68,12 +68,18 @@ hr {
   margin-bottom: .5rem;
 }
 
+.team-member-card{
+  margin: .5rem;
+}
+
 .team-member-photo{
   float: left;
   margin-right: 1rem;
   max-width: 15%;
+  border-radius: 5px;
 }
 
 .team-member-bio{
   font-size: 1.5rem;
+  white-space: pre-wrap;
 }
