@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import certificate from '../../docs/501c3_DeterminationLetter.pdf';
 
 function Footer() {
     return (
@@ -37,7 +38,7 @@ function Footer() {
                 </Row>
             </Container>
             <hr></hr>
-            <h4 class="text-center">© Aeon For Ocean 2021</h4>
+            <h4 class="text-center">Aeon for Ocean is a 501(c)(3) organization, founded in 2017. EIN: 82-1433895 | <a href={certificate} target="blank">501(c)(3) Certificate</a></h4>
         </footer>
     )
 }
