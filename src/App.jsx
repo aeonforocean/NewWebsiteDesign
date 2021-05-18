@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 import HeaderNav from "./components/HeaderNav/header-nav";
-import AboutUs from "./pages/AboutUs/AboutUs";
+import AboutUs from "./pages/AboutUs/OurStory";
+import OurTeam from "./pages/AboutUs/OurTeam";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import KidsCorner from "./pages/KidsCorner/KidsCorner";
 import KnowYourOcean from "./pages/KnowYourOcean";
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/kids-corner" component={KidsCorner} />
           <Route exact path="/publications" component={Publications} /> */}
           <Route exact path="/about-us" component={AboutUs} /> 
+          <Route exact path="/our-team" component={OurTeam} /> 
           <Route exact path="/contact-us" component={ContactUs} />
           <Route exact path="/request-speaker" component={RequestASpeaker} />
         </Switch>
