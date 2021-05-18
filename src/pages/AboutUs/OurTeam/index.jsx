@@ -1,28 +1,24 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 import TeamCard from "../../../components/TeamCard";
-import team from "./team-members.json";
+import team from "./team-members.js";
 
 
 
 function OurTeam(props) {
     
     return (
-        <div>
-            {/* {team.map(teamMember => (
-          <TeamCard
-            name={teamMember.name}
-            image={teamMember.img}
-            role={teamMember.role}
-            bio={teamMember.bio}
-          />
-        ))} */}
-         <TeamCard
-            name={"Aeon Bashir"}
-            image={img}
-            role={"Head Krill"}
-            bio={"Boss dude"}
-          />
-        </div>
+        <Container>
+          <h1>Our Team</h1>
+          <Row>
+            <TeamCard
+                name={team[0].name}
+                image={team[0].img}
+                role={team[0].role}
+                bio={team[0].bio}
+              />
+          </Row>
+        </Container>
     );
 }
 
