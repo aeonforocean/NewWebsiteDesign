@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Container, Row } from "react-bootstrap";
-import HeaderImage from "../../../components/HeaderImage";
+import HeaderImage from "../../components/HeaderImage";
 
 function KnowYourOcean() {
 

@@ -4,7 +4,7 @@ import HeaderNav from "./components/HeaderNav/header-nav";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import KidsCorner from "./pages/KidsCorner/KidsCorner";
-import KnowYourOcean from "./pages/KnowYourOcean/KnowYourOcean";
+import KnowYourOcean from "./pages/KnowYourOcean";
 import Publications from "./pages/Publications/Publications";
 import TakeAction from "./pages/TakeAction/TakeAction";
 import Home from "./pages/Home";

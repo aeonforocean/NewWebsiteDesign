@@ -28,14 +28,9 @@ class HeaderNav extends Component{
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <NavDropdown title="Know Your Ocean" id="collapsible-nav-dropdown">
-                            <NavDropdown.Item ><Link to="/know-your-ocean">Know Your Ocean</Link></NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item><Link to="/the-world-ocean">The World Ocean</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link to="/land-to-ocean">Land To Ocean</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link to="/marine-habitat">Marine Habitat</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link to="/endangered-species">Endangered Species</Link></NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Item>
+                            <Nav.Link href="/know-your-ocean">Know Your Ocean</Nav.Link>
+                        </Nav.Item>
                         <NavDropdown title="Take Action" id="collapsible-nav-dropdown">
                             <NavDropdown.Item ><Link to="/take-action">Take Action</Link></NavDropdown.Item>
                             <NavDropdown.Divider />

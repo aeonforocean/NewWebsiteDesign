@@ -1,5 +1,5 @@
 #section2Image {
-    background-image: url("../../../img/turtle.webp");
+    background-image: url("../../img/turtle.webp");
 }
 #section2Image {
     background-attachment: fixed;
@@ -9,7 +9,7 @@
     padding: 0 0 0 0;
 }
 #section4Image {
-    background-image: url("../../../img/fish.webp");
+    background-image: url("../../img/fish.webp");
 }
 #section4Image {
     background-attachment: fixed;
@@ -19,7 +19,7 @@
     padding: 0 0 0 0;
 }
 #section6Image {
-    background-image: url("../../../img/jellyfish.webp");
+    background-image: url("../../img/jellyfish.webp");
 }
 #section6Image {
     background-attachment: fixed;
