@@ -38,12 +38,9 @@ class HeaderNav extends Component{
                             <NavDropdown.Item><Link to="/common-sense-plastic">Common Sense Plastic</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/krill2whale-events">Krill2Whale Events</Link></NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Kids Corner" id="collapsible-nav-dropdown">
-                            <NavDropdown.Item ><Link to="/kids-corner">Kids Corner</Link></NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item><Link to="/fun-and-play">Fun and Play</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link to="/videos">Videos</Link></NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Item>
+                            <Nav.Link href="/kids-corner">Kids Corner</Nav.Link>
+                        </Nav.Item>
                         <NavDropdown title="Publications" id="collapsible-nav-dropdown">
                             <NavDropdown.Item ><Link to="/publications">Publications</Link></NavDropdown.Item>
                             <NavDropdown.Divider />
