@@ -11,7 +11,7 @@ function OurTeam(props) {
         <Container>
           <h1>Our Team</h1>
           <Row>
-            {team.map(team_member => <TeamCard name={team_member.name} image={team_member.img} role={team_member.role} bio={team_member.bio}/>)}
+            {team.map(team_member => <TeamCard name={team_member.name} image={team_member.img} role={team_member.role} bio={team_member.bio} key={team_member.name}/>)}
           </Row>
         </Container>
     );
