@@ -48,7 +48,6 @@ class HeaderNav extends Component{
                             <NavDropdown.Item><Link to="/newsletters">Newsletters</Link></NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="About Us" id="collapsible-nav-dropdown">
-                            <NavDropdown.Item><Link to="/our-story">Our Story</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/our-team">Our Team</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/our-program">Our Program</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to="/our-journey">Our Journey</Link></NavDropdown.Item>
