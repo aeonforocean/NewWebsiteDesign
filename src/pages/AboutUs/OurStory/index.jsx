@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 
-function AboutUs(props) {
+function OurStory(props) {
   return (
     <Container>
       <h1>Our Story</h1>
@@ -86,4 +86,4 @@ function AboutUs(props) {
   );
 }
 
-export default AboutUs;
+export default OurStory;

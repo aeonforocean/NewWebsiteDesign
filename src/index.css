@@ -83,3 +83,7 @@ hr {
   font-size: 1.5rem;
   white-space: pre-wrap;
 }
+
+p{
+  white-space: pre-wrap;
+}
